@@ -13,7 +13,6 @@ const App = () => {
       setQuery('');
     }
   };
-  console.log(weather);
 
   return (
     <div className="main-container">
@@ -45,6 +44,15 @@ const App = () => {
           </div>
         </div>
       )}
+      <aside className="logo-attribution">
+        <a
+          className="attribution-link"
+          href="https://www.flaticon.com/free-icons/weather-app"
+          title="weather app icons"
+        >
+          Weather app icons created by kliwir art - Flaticon
+        </a>
+      </aside>
     </div>
   );
 };

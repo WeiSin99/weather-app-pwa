@@ -9,8 +9,8 @@ body,
 }
 
 .main-container {
-  /* background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.418)), */
-  /* url('https://hdwallpaper20.com/wp-content/uploads/2017/07/wallpaper-wp4001752.jpg'); */
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.418)),
+    url('../public/images/bg.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -93,4 +93,22 @@ p {
   .city {
     padding: 40px 20%;
   }
+}
+
+.logo-attribution {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0 20px 20px 0;
+  padding: 5px;
+  border-radius: 5px;
+  background: #ffffff;
+}
+
+.attribution-link {
+  color: rgb(55 65 81);
+  text-decoration: none;
+}
+.attribution-link:hover {
+  text-decoration: underline;
 }
